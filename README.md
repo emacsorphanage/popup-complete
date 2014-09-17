@@ -1,5 +1,7 @@
 # popup-complete
 
+Packaging [these code snippets](http://www.emacswiki.org/emacs/PopUp) by created LinhDang.
+
 ## Screenshot
 
 ![popup-complete](image/popup-complete.png)
