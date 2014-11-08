@@ -41,9 +41,17 @@
   :type 'boolean
   :group 'popup-complete)
 
+(defcustom popup-complete-enabled-modes nil
+  "major-mode list which enables `popup-comple'"
+  :type '(repeat symbol)
+  :group 'popup-complete)
+
+(defsubst popup-complete--enabled-mode-p ()
+  (memq major-mode popup-complete-enabled-modes))
+
 ;;;###autoload
 (defun popup-complete--in-region (next-func start end collection &optional predicate)
-  (if (not popup-complete-enable)
+  (if (or (not (popup-complete--enabled-mode-p)) (not popup-complete-enable))
       (funcall next-func start end collection predicate)
     (let* ((prefix (buffer-substring start end))
            (completion (try-completion prefix collection predicate))
