@@ -1,4 +1,4 @@
-# popup-complete
+# popup-complete [![melpa badge][melpa-badge]][melpa-link] [![melpa stable badge][melpa-stable-badge]][melpa-stable-link]
 
 Packaging [these code snippets](http://www.emacswiki.org/emacs/PopUp) by created LinhDang.
 
@@ -30,3 +30,8 @@ Major modes which enables `popup-complete`
 (custom-set-variables
  '(popup-complete-enabled-modes '(lisp-interaction-mode ruby-mode scala-mode)))
 ```
+
+[melpa-link]: http://melpa.org/#/popup-complete
+[melpa-stable-link]: http://melpa.org/#/popup-complete
+[melpa-badge]: http://melpa.org/packages/popup-complete-badge.svg
+[melpa-stable-badge]: http://stable.melpa.org/packages/popup-complete-badge.svg
