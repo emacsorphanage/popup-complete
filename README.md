@@ -32,6 +32,6 @@ Major modes which enables `popup-complete`
 ```
 
 [melpa-link]: http://melpa.org/#/popup-complete
-[melpa-stable-link]: http://melpa.org/#/popup-complete
+[melpa-stable-link]: http://stable.melpa.org/#/popup-complete
 [melpa-badge]: http://melpa.org/packages/popup-complete-badge.svg
 [melpa-stable-badge]: http://stable.melpa.org/packages/popup-complete-badge.svg
